@@ -4,13 +4,15 @@ const port = 3002;
 
 const typeDefs = `
 type Query {
-    info: String!
+    info: String!,
+    port: Int!
 }
 `;
 
 const resolvers = {
     Query: {
-        info: () => `Prueba de concepto node graphql`
+        info: () => `Prueba de concepto node graphql`,
+        port: () => `${port}`
     }
 };
 
