@@ -1,0 +1,14 @@
+{
+  "name": "graphqlnodefp",
+  "version": "1.0.0",
+  "description": "Test project for node+graphql using yoga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@mas205",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  }
+}
