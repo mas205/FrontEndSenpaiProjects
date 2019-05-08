@@ -1,8 +1,11 @@
+$(document).ready(main);
+
 const main = () => {
     alert('prueba');
+    //$('#buttonID').click(someFunction);
 };
 
-$(document).ready(
-    main()
-);
 
+const someFunction = () => {
+    alert("Esto deberia funcionar");
+}
