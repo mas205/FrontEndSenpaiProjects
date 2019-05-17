@@ -1,0 +1,39 @@
+html, body{
+    color: darkslategrey;
+    height: 100%;
+}
+.card {
+    width: fit-content;
+    margin: 50px 50px 50px 50px;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 20px #b2b2b2;
+    float: left;
+    border-radius: 5%;
+}
+p {
+    font-size: 30px;
+}
+.t4:hover {
+    text-transform: lowercase;
+}
+.t5:hover {
+    text-transform: capitalize;
+}
+.t6:hover {
+    text-transform: uppercase;
+}
+.d1:hover {
+    text-decoration: underline dotted;
+}
+.d2:hover {
+    text-decoration: line-through tomato;
+}
+.d3:hover {
+    text-decoration: underline navy wavy;
+}
+#navbarPrueba{
+    background-color: lightgrey;
+}
+#navbarPrueba>a{
+    color: slategray;
+}
